@@ -1,6 +1,6 @@
 # QR Code Component
 
-![Preview](./desktop-design.jpg)
+![Preview](git-test\images\desktop-design.jpg)
 
 A clean and modern QR Code card built with **HTML & CSS**. This project is perfect for practicing layout, centering techniques, shadows, and responsive design.
 
