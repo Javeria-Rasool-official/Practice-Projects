@@ -16,15 +16,8 @@ A clean and modern QR Code card built with **HTML & CSS**. This project is perfe
 
 ## 🌐 Live Demo
 
-[Click here to view the live project](https://your-live-site-link.com)
+- :) Its on local host 
 
 ---
 
-## 📸 Screenshot
-
-![QR Code Component](./preview.jpg)
-
----
-
-## 📂 Project Structure
 
