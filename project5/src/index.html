@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-cream">
+    <main class="flex justify-center items-center h-screen">
+        <div class="card gap-2 flex flex-col  lg:flex-row lg:w-1/2 h-auto pb-5 lg:pb-0 w-1/2 justify-center items-center bg-white rounded-xl">
+            <img class="rounded-t-xl w-full object-cover lg:hidden" src="../images/image-product-mobile.jpg" alt="image">
+            <img class=" hidden lg:flex lg:w-1/2 lg:rounded-lg" src="../images/image-product-desktop.jpg" alt="">
+            <div class="content lg:w-1/2 p-6 flex justify-center  gap-4 flex-col">
+                <p class="font-mont text-grey tracking-widest font-medium text-sm">PERFUME</p>
+                <h1 class="font-fraun font-bold text-4xl">Gabrielle Essence Eau De Parfum</h1>
+                <p class="font-mont text-grey font-medium">A floral, solar and coluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                <div class="pricing w-4/5 flex items-center gap-4">
+                <h1 class=" text-green-500 font-bold text-4xl font-fraun">$149.99</h1>
+                <p class="line-through text-grey">$169.99</p>
+            </div>
+            <button class="bg-green-500 border-0 hover:bg-green-700 flex text-white w-4/5 rounded-lg justify-center items-center gap-2 py-4 px-12"><img src="../images/icon-cart.svg" alt="">Add to Cart</button>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
