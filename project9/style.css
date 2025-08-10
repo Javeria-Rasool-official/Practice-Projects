@@ -1,0 +1,115 @@
+:root{
+    --red: hsl(4, 100%, 67%);
+    --blue-800: hsl(234, 29%, 20%);
+    --blue-700: hsl(235, 18%, 26%);
+    --grey: hsl(0, 0%,58%);
+    --white: hsl(0, 0%, 100%)
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto,sans-serif;
+}
+body{
+    background-color: var(--blue-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height:100vh
+}
+main{
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 30px;
+    width: 80%;
+}
+section{
+    padding:8px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+section h1{
+    font-size: 50px;
+}
+section ul {
+    list-style: none;
+    margin-bottom: 8px;
+    padding: 0;
+    margin: 0;
+}
+section ul li{
+    padding: 6px;
+    margin: 0;
+}
+.images{
+    padding-right: 10px;
+}
+form label{
+    display: block;
+}
+form input,button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 8px;
+}
+form input{
+ border:1px solid var(--grey);
+
+}
+
+form button{
+    background-color: var(--blue-800);
+    border:none;
+    color:var(--white)
+    
+}
+ .error{
+background-color: rgb(252, 235, 235);
+border:1px solid var(--red);
+color:red;
+ &::placeholder{
+    color:red;}
+   
+}
+form button:hover{
+    background: linear-gradient(to right,orange,var(--red));
+}
+form p{
+    display:none;
+    color:red;
+
+}
+
+.para{
+    display: block;
+}
+.box{
+    display: none;
+    width: 30%;
+    background-color: var(--white);
+    padding: 8px;
+    border-radius: 20px;
+}
+.box button{
+     background-color: var(--blue-800);
+    border:none;
+    color:var(--white);
+}
+.box button:hover{
+    background: linear-gradient(to right,orange,var(--red));
+}
